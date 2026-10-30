@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pausepoint</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="brand"><span class="mark" aria-hidden="true"></span>pausepoint</div>
+  <div class="task" id="taskTitle"></div>
+  <div class="status" id="liveStatus" role="status"></div>
+  <div class="modes" role="tablist" aria-label="Mode">
+    <button role="tab" id="tabPause" aria-selected="false">Pause here</button>
+    <button role="tab" id="tabReturn" aria-selected="false">Return</button>
+  </div>
+</header>
+
+<main class="work">
+  <section class="stage" aria-label="Photos">
+    <div class="shots" id="shots"></div>
+    <div class="stagebar" id="stagebar"></div>
+  </section>
+
+  <aside class="side">
+    <h2 class="rail-title">Steps <span id="railHint"></span></h2>
+    <ol class="rail" id="rail"></ol>
+    <div id="panel" class="panel"></div>
+  </aside>
+</main>
+<script src="/app.js" type="module"></script>
+</body>
+</html>

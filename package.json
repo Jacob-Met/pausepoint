@@ -1,0 +1,2 @@
+{ "name": "pausepoint", "version": "1.0.0", "type": "module", "license": "MIT", "private": true,
+  "scripts": { "start": "node server.mjs", "test": "node --test" }, "engines": { "node": ">=22" } }
